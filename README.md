@@ -36,7 +36,7 @@ First, you will be prompted to crop the montage into rectangular slices.
 These do not have to be exactly the same size - padding will be used later to create image stacks of uniform height and width.
 Each row of slices will be written to a different, numbered "input" folder. The cropping rectangles are saved (as plain-text ASCII files) for possible later re-use.
 
-The cropped images are then be binarized automatically using Otsu's method - the Level and Efficiency Metric are recorded in a summary CSV file.
+The cropped images are then binarized automatically using Otsu's method - the Level and Efficiency Metric are recorded in a summary CSV file.
 
 Next, you will need to crop the binarized images with a manually drawn ROI. An initial ellipse will be drawn,
 but you can move the vertices, as well as add or remove them.
